@@ -4,6 +4,7 @@ import { auth } from "../../firebase.init";
 
 const Register = () => {
   const [user, setUser] = useState(null);
+  console.log(user)
 
   const handleRegister = (e) => {
     e.preventDefault();
